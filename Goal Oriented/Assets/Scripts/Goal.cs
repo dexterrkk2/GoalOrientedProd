@@ -20,6 +20,7 @@ public class Goal
 public class Action
 {
     public string name;
+    public Vector3 spot;
     public List<Goal> goals;
     public Action(string actionName)
     {
